@@ -41,23 +41,19 @@ $('#nav').click(function(){
 
    
 
-    // $('#aboutMe').click(function(e){
-    //     e.preventDefault(); // function declaration 
+    $('#aboutMe').click(function(e){
+        e.preventDefault(); // function declaration 
         
-    //     // html,body here was here
-    //     $('html,body').animate({
+        // html,body here was here
+        $('html,body').animate({
            
-    //           scrollTop: $("#footer").offset().top
-    //     },100);
+              scrollTop: $("#footer").offset().top
+        },100);
     
     
         
-    // });
-    $('#aboutMe').click(function(){
-        $('body').animate({
-            scrollTop: $('#footer').offset().top
-        },200);
-    })
+    });
+   
 
 
     
