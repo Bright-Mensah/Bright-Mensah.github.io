@@ -106,9 +106,7 @@ $('#contact').click(() =>{ //arrow function
 
 $('#portfolio').on('click',() =>{
 
-    document.getElementById('portfolio').scrollIntoView();
-});
-
+    document.scrollingElement.scrollTop(300);
 
 
 
