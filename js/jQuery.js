@@ -116,15 +116,5 @@ $('.downArrow').click(() =>{
 });
 
 
-// socail media
-
-$('.instagram-logo').on('click',function(){
-    window.open('https://www.instagram.com/brig_htmensah/');
-    
-
-});
-$('.github-logo').click(() =>{
-    window.open('https://github.com/Bright-Mensah');
-});
 
 
