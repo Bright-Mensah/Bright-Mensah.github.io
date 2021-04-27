@@ -99,7 +99,7 @@ $('#portfolio').click(() =>{// arrow function
 
    $('body').animate({
 
-    scrollTo: $('.portfolio').offset().top-250
+    scrollTop: $('.portfolio').offset().top-250
 
    
    },500);
