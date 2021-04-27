@@ -89,24 +89,24 @@ $('#contact').click(() =>{ //arrow function
     },200);
 });
 
-$('#portfolio').click(() =>{// arrow function 
+// $('#portfolio').click(() =>{// arrow function 
 
-    // $('body').animate({
+//     $('body').animate({
 
-    //     scrollTop: $('.portfolio').offset().top-250
+//         scrollTop: $('.portfolio').offset().top-250
        
-    // },100);
-
-   $('body').animate({
-
-    scrollTop: $('.portfolio').offset().top-850
+//     },100);
 
    
-   },100);
 
     
 
     
+// });
+
+$('#portfolio').on('click',() =>{
+
+    document.getElementById('portfolio').scrollIntoView();
 });
 
 
