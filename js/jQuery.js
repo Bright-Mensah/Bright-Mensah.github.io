@@ -99,10 +99,10 @@ $('#portfolio').click(() =>{// arrow function
 
    $('body').animate({
 
-    scrollTop: $('.portfolio').offset().top-250
+    scrollTop: $('.portfolio').offset().top-850
 
    
-   },500);
+   },100);
 
     
 
