@@ -41,7 +41,6 @@ jQuery(document).ready(function($){
 
     $('#about').on('click',function(e){
         e.preventDefault();
-        
         $('html,body').animate({
             scrollTop: $('#footer').offset().top-200
         },200);
@@ -91,12 +90,19 @@ $('#contact').click(() =>{ //arrow function
 });
 
 $('#portfolio').click(() =>{// arrow function 
-    // html,body here was here
-    $(document).animate({
 
-        scrollTop: $('.portfolio').offset().top-250
+    // $('body').animate({
+
+    //     scrollTop: $('.portfolio').offset().top-250
        
-    },100);
+    // },100);
+
+   $('body').animate({
+
+    scrollTo: $('.portfolio').offset().top-250
+
+   
+   },500);
 
     
 
