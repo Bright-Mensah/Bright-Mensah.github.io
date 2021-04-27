@@ -896,7 +896,7 @@ for the indicator to display on the slider */
         letter-spacing: 1.4px;
         line-height: 30px;
         color: grey;
-        font-weight: bold;
+        
     }
     .wrapper{
         margin: 260px 0px 0 188px;
@@ -1158,6 +1158,7 @@ for the indicator to display on the slider */
     font-size: 22px;
     line-height: 29px;
     padding: 20px;
+    font-weight: normal;
 }
 .contact-us #contact-description br{
     display: none;
@@ -1626,7 +1627,7 @@ for the indicator to display on the slider */
         margin: 40px 0px 0px 69px;
     }
     .github-logo{
-        margin: 60px 0px 0px -60px;
+        margin: 60px 0px 0px 10px;
     }
    
     .instagram-logo{
