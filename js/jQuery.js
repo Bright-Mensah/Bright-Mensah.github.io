@@ -89,26 +89,22 @@ $('#contact').click(() =>{ //arrow function
     },200);
 });
 
-// $('#portfolio').click(() =>{// arrow function 
 
-//     $('body').animate({
 
-//         scrollTop: $('.portfolio').offset().top-250
+$('#portfolio').click(() =>{// arrow function 
+
+    $('html,body').animate({
+
+        scrollTop: $('.portfolio').offset().top-250
        
-//     },100);
+    },100);
 
    
 
     
 
     
-// });
-
-$('#portfolio').on('click',() =>{
-
-    document.scrollingElement.scrollTop(300);
-
-
+});
 
 
 $('.downArrow').click(() =>{
@@ -120,5 +116,15 @@ $('.downArrow').click(() =>{
 });
 
 
+// socail media
+
+$('.instagram-logo').on('click',function(){
+    window.open('https://www.instagram.com/brig_htmensah/');
+    
+
+});
+$('.github-logo').click(() =>{
+    window.open('https://github.com/Bright-Mensah');
+});
 
 
