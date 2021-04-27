@@ -41,8 +41,8 @@ $('#nav').click(function(){
 
    
 
-    $('#aboutMe').click(function(e){
-        e.preventDefault(); // function declaration 
+    $('#aboutMe').click(function(){
+     // function declaration 
         
         // html,body here was here
         $('html,body').animate({
