@@ -36,7 +36,17 @@ $('#nav').click(function(){
 });
 
 
-   
+
+jQuery(document).ready(function($){
+
+    $('#about').on('click',function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        $('html,body').animate({
+            scrollTop: $('#footer').offset().top-200
+        },200);
+    });
+});
 
 
    
