@@ -51,23 +51,19 @@ jQuery(document).ready(function($){
 
    
 
-    // $('#aboutMe').click(function(e){
-    //     e.preventDefault(); // function declaration 
-        
-    //     // html,body here was here
-    //     $('html,body').animate({
-           
-    //           scrollTop: $("#footer").offset().top
-    //     },100);
-    
-    
-        
-    // });
     $('#aboutMe').click(function(){
-        $('body').animate({
-            scrollTop: $('#footer').offset().top
-        },200);
-    })
+     // function declaration 
+        
+        // html,body here was here
+        $('html,body').animate({
+           
+              scrollTop: $("#footer").offset().top
+        },100);
+    
+    
+        
+    });
+   
 
 
     
