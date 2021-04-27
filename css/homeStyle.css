@@ -1,0 +1,2140 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    /* font-family: sans-serif; */
+    background-color: black;
+    overflow-x:hidden;
+   
+
+}
+#mainbox{
+    font-size: 24px;
+    cursor: pointer;
+    transition: all .6s;
+    color: cornflowerblue;
+    position: -webkit-sticky;
+    position: sticky;
+   
+}
+
+
+#Intro{
+    color: white;
+    display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 40%;
+  left: 33%;
+  font-size: 60px;
+  font-weight: bold;
+
+}
+/* first line */
+.line{
+    border: 1px solid cornflowerblue;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    margin: 290px 0px 0px -140px;
+    top: 10%;
+    display: block;
+    
+}
+.carrer-1{
+    color: white;
+    margin: 235px 0px 0px 494px;
+    position: absolute;
+    display: block;
+    top: 18%;
+    left: 1%;
+    font-family: 'Staatliches', cursive;
+  
+    font-size: 19px;
+    letter-spacing: 2px;
+    line-height: 32px;
+    
+}
+/* second line */
+.second{
+    border: 1px solid cornflowerblue;
+    margin: 290px 0px 0px 45px;
+    
+}
+.carrier-2{
+    padding: 0px 0px 0px 188px;
+}
+/* third line */
+.third{
+    border: 1px solid cornflowerblue;
+    margin: 290px 0px 0px 195px;
+}
+/* about me */
+.nav-list{
+    margin: 10px 0px 0px 200px;
+}
+#nav-menu {
+    color: cornflowerblue;
+    cursor: pointer;
+    width: 200px;
+
+    
+}
+#nav{
+    
+    list-style: none;
+}
+
+span{
+    margin:  0px 0px 0px 210px;
+    font-size: 30px;
+    
+
+}
+
+ul{
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 200px;
+}
+ li a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    padding: 8px;
+}
+a:hover{
+    color: black;
+}
+
+
+
+
+
+#aboutMe{
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    display: flex;
+    top: 65%;
+    left: 45%;
+    font-size: 20px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 3px;
+    border: 1px solid cornflowerblue ;
+    padding: 24px;
+    cursor: pointer;
+}
+.downArrow{
+width: 20px;
+height: 20px;
+position: absolute;
+top: 69.3%;
+left: 58.5%;
+cursor: pointer;
+
+
+}
+/* social media icons */
+.instagram-logo{
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    top: 93.1%;
+    left: 46.5%;
+    cursor: pointer;
+}
+
+.github-logo{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 93.1%;
+    left: 53%;
+   
+}
+#footer{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    color: cornflowerblue;
+    text-align: center;
+    margin-top: 680px;
+    height: 1579px;
+    
+    
+
+   
+    
+   
+
+}
+#footer h3{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: blue;
+    text-transform: uppercase;
+   
+}
+.title{
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+}
+.secondIntro{
+    font-size: 18px;
+    color: gray;
+    margin: -18px 200px 200px 200px  ;
+    display: flex;
+    justify-content: center;
+   line-height: 40px;
+    font-family: 'Libre Baskerville', serif;
+    padding: 30px;
+    text-align: start;
+    
+}
+.profilePic img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid green;
+    border-radius: 50%;
+    float: left;
+    margin: 20px 0px 0px 200px;
+     
+}
+#heading{
+    color: black;
+    float: left;
+    margin: -170px 0px 0px 220px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#secondHeader{
+    color: black;
+    float: right;
+    margin: -170px 350px 0px 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+#title{
+    color: grey;
+    float: left;
+    margin:-120px 0px 0px 200px ;
+}
+ 
+
+.fullName{
+    margin: -85px 0px 0px 220px;
+    float: left;
+    color: black;
+    font-weight: bold;
+    font-family: 'Antonio', sans-serif;
+}
+.fname-answer{
+    color: grey;
+    margin: -55px 0px 0px 220px;
+    float: left;
+    font-family: 'Antonio', sans-serif;
+}
+.birthDate{
+    float: left;
+    color: black;
+    margin: -20px 0px 0px 220px;
+    font-weight: bold;
+    font-family: 'Antonio', sans-serif;
+}
+.bd-answer{
+    color: grey;
+    float: left;
+    margin: 4px 0px 0px 220px;
+    font-family: 'Antonio', sans-serif;
+}
+.job{
+    color: black;
+    font-weight: bold;
+    margin: 40px 0px 0px -90px;
+    float: left;
+    font-family: 'Antonio', sans-serif;
+}
+.jb-answer{
+    color: grey;
+    float: left;
+    margin: 66px 0px 0px -90px;
+    font-family: 'Antonio', sans-serif;
+}
+.email{
+    color: black;
+    float: left;
+    margin:103px 0px 0px -212px;
+    font-weight: bold;
+    font-family: 'Antonio', sans-serif;
+}
+.e-answer{
+    color: grey;
+    float: left;
+    margin: 130px 0px 0px -212px;
+    font-family: 'Antonio', sans-serif;
+}
+.Java_skills label{
+    margin: -85px 365px 0px 0px;
+    color: black;
+    float: right;
+}
+.Java_skills progress{
+    float: right;
+    margin: -85px 195px 0px 0px;
+}
+.Java_skills p{
+    color: yellow;
+    float: right;
+    margin: -85px 150px 0px 0px;
+}
+.Html_skills label{
+    float: right;
+    color: black;
+    margin: -17px 360px 0px 0px;
+}
+.Html_skills progress{
+    float: right;
+    margin: -17px -219px 0px 0px;
+}
+.Html_skills p{
+    float: right;
+    margin: -19px -265px 0px 0px;
+    color: green;
+}
+.css-skills label{
+    float: right;
+    margin: 50px -49px 0px 0px;
+    color: black;
+
+
+}
+.css-skills progress{
+    float: right;
+    margin: 50px -220px 0px 0px;
+}
+.css-skills p{
+    color: coral;
+    float: right;
+    margin: 50px -265px 0px 0px;
+}
+.firebase-skills label{
+    color: black;
+    float: right;
+    margin: 110px -60px 0px 0px;
+    text-align: start;
+}
+.firebase-skills progress{
+    float: right;
+    margin: 110px -245px 0px 0px ;
+}
+.firebase-skills p{
+    float: right;
+    color: coral;
+    margin: 110px -289px 0px 0px;
+}
+.javascript-skills label{
+    color: black;
+    float: right;
+    margin: 160px -82px 0px 0px;
+}
+.javascript-skills progress{
+    float: right;
+    margin: 160px -262px 0px 0px;
+}
+.javascript-skills p{
+    color: blueviolet;
+    float: right;
+    margin: 160px -310px 0px 0px ;
+}
+.portfolio h1{
+    margin: 450px 0px 0px 0px;
+    color: blue;
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    text-transform: uppercase;
+    
+}
+.portfolio p{
+    color: black;
+    font-size: 30px;
+    margin: 10px;
+}
+.portfolio #description{
+    font-size: 20px;
+    color: gray;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+}
+
+.contact-us{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: black;
+    margin: -510px 0px 0px 0px;
+
+}
+.contact-us h3{
+    color: blue;
+    padding: 0px 0px 0px 0px;   
+}
+.contact-us p{
+    margin: 20px 0px 0px 0px;
+    font-size: 40px;
+    color: white;
+}
+#contact-description{
+   color: grey;
+   font-size: 25px;
+   font-family: 'Saira Condensed', sans-serif;
+}
+ 
+/* contact form */
+.wrapper{
+    position: absolute;
+    margin: 232px 0px 0px 630px;
+    transform: translate(-50%,-50%);
+    max-width: 700px;
+    width: 100%;
+    background:cornflowerblue;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px rgb(236, 239, 245);
+}
+
+.wrapper h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #332902;
+}
+.wrapper .input_field {
+    margin-bottom: 10px;
+   
+    
+    
+}
+.wrapper .input_field input[type='text'],.wrapper textarea{
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+}
+.wrapper textarea{
+    resize: none;
+    height:80px;
+}
+
+
+.wrapper .btn  input[type='button']{
+    border: 0px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+/* hover on button */
+.wrapper .btn input[type='button']:hover{
+    color: yellow;
+}
+#error_message{
+    margin-bottom: 20 px;
+    background: #f38b8e;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    transition: all 0.5s ease;
+    
+    
+}
+
+ 
+
+/* navigation  */
+
+#nav{
+    display: none;
+   
+}
+
+/* slider for portfolio */
+/* the body for the slider */
+.home{
+    height: 150vh;
+    overflow: hidden;
+    position: relative;
+}
+/* the image used in the slider */
+.home .slide{
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    display: none;
+    -webkit-animation: slide 2s ease;
+            animation: slide 2s ease;
+    padding: 0 15px;
+}
+/* how the image should display in the slider */
+.home .slide.active{
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+}
+/* animation for slide to let image slide*/
+@-webkit-keyframes slide{
+    0%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes slide{
+    0%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+/* the body or container for the captions
+or text on the slider */
+.container{
+    max-width: 1170px;
+    margin: auto;
+    
+}
+/*  postion for the text or captions
+on the slider */
+.home .container{
+    flex-grow: 1;
+    
+}
+/* the width of the caption or text 
+on the slider */
+.home .caption{
+    width: 50%;
+}
+/* the fontsize, color, and margin for the h1 text
+or caption on the slider */
+.home .caption h1{
+    font-size: 42px;
+    color: black;
+    margin: 0;
+}
+/* animation for the h1 text or caption on the slider */
+.home .slide.active .caption h1{
+    opacity: 0;
+    -webkit-animation: captionText .5s ease forwards;
+            animation: captionText .5s ease forwards;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+}
+/* fontsize,color and margin for the p text or caption
+on the slider */
+.home .caption p{
+    font-size: 18px;
+    color: black;
+    margin: 15px 0 30px;
+}
+/* animation for the p text or caption on the slider */
+.home .slide.active .caption p{
+    opacity: 0;
+    -webkit-animation:captionText .5s ease forwards;
+            animation:captionText .5s ease forwards;
+    -webkit-animation-delay: 1.2s;
+            animation-delay: 1.2s;
+}
+/* display,padding,bg,textdecoration,etc for the a
+which is the link on the slider for the user
+to click on to navigate him or her to github */
+.home .caption a{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: black;
+    text-decoration: none;
+    color: cornflowerblue;
+}
+/* the animation for the a link to navigate the user to github
+when he or she clicks on it */
+.home .slide.active .caption a{
+    opacity: 0;
+    -webkit-animation: captionText .5s ease forwards;
+            animation: captionText .5s ease forwards;
+    -webkit-animation-delay: 1.4s;
+            animation-delay: 1.4s;
+}
+/* animation for captionText for all the captions
+or text on the slider */
+@-webkit-keyframes captionText {
+    0%{
+        opacity: 0; transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1; transform: translateX(0px);
+    }
+    
+}
+@keyframes captionText {
+    0%{
+        opacity: 0; transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1; transform: translateX(0px);
+    }
+    
+}
+
+/* controls for the slider */
+.home .controls .prev, .home .controls .next{
+    position: absolute;
+    z-index: 2;
+    top: 20%;
+    height: 40px;
+    width: 40px;
+    margin-top: -100px;
+    color: cornflowerblue;
+    background-color: crimson;
+    text-align: center;
+    line-height: 40px;
+    font-display: 20px;
+    cursor: pointer;
+    transition: all .5s ease;
+
+}
+/* when the user mouse or pointer touches both the prev and 
+next arrow the background color should change to black */
+.home .controls .prev:hover, .home .controls .next:hover{
+    background-color: black;
+}
+/* let the prev arrow be on the left */
+.home .controls .prev{
+    left: 0;
+}
+/* let the next arrow be on the right */
+.home .controls .next{
+    right: 0;
+}
+
+/* indicators for the slider */
+.home .indicator{
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    z-index: 2;
+    transform: translateX(-50%);
+    
+}
+/* color,height,border-radius,etc
+for the indicator to display on the slider */
+.home .indicator div{
+    display: inline-block;
+    width: 25px;
+    height:25px;
+    color: white;
+    background-color: crimson;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    margin: 0 3px;
+}
+.home .indicator div.active{
+    background-color: green;
+}
+.home .slider .caption a:hover{
+    color: green;
+    font-weight: bold;
+}
+
+/* devices with 500px and upwards */
+
+
+
+/* devices with 374px and upwards */
+/* iphone x  and iphone 6*/
+@media(min-width:374px){
+    
+
+    #nav-menu{
+        margin: 10px 0px 0px -40px;
+    }
+    #nav{
+        margin: 5px 0px 0px  90px;
+        height: 138px;
+    }
+    #nav a{
+        margin: 0px 0px 0px 65px;
+    }
+    #Intro{
+        
+        font-size: 28px;
+        margin: -70px 0px 0px -50px;
+    }
+    .line{
+        margin: 221px 0px 0px -120px;
+        display: none;
+
+    }
+    .carrer-1{
+        margin: 160px 0px 0px 38px;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+    .second{
+        margin: 221px 0px 0px 50px;
+    }
+    .carrier-2{
+        margin: 160px 0px 0px 34px;
+        font-size: 15px;
+    }
+    #aboutMe{
+        margin: -90px 0px 0px -100px;
+        font-family: sans-serif;
+    }
+    .downArrow{
+        margin: -84px 0px 0px 85px;
+    }
+    .instagram-logo{
+        margin: -25px 0px 0px -50px ;
+    }
+    .github-logo{
+        top: 93.1;
+        left: 68%;
+
+    }
+
+    #footer{
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        color: cornflowerblue;
+        text-align: center;
+        margin-top: 778px;
+        height: 2099px;
+    }
+
+    #footer h3{
+        margin: 30px 0px 0px 0px ;
+        font-size: 22px;
+    }
+    .title{
+        font-size: 17px;
+        margin:-15px 20px 0px 20px;
+        
+    }
+    .profilePic img{
+        margin: 20px 0px 0px 110px;
+    }
+    .secondIntro{
+        margin: -15px 20px 0px 60px ;
+        float: left;
+        padding: 20px;
+        font-size: 17.5px;
+        letter-spacing: 2px;
+        text-align: start;
+        line-height: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    #heading{
+        margin: 20px 0px 0px 150px;
+        font-size: 18px;
+    }
+    #secondHeader{
+        margin: 450px 160px 0px 0px;
+        
+        
+    }
+    
+    
+    .fullName{
+        margin:90px 0px 0px -140px
+    }
+    .fname-answer{
+        margin: 120px 0px 0px -140px ;
+    }
+    .birthDate{
+        margin: 150px 0px 0px -140px;
+    }
+    .bd-answer{
+        margin: 175px 0px 0px -140px;
+    }
+    .job{
+        margin: 205px 0px 0px -140px;
+    }
+    .jb-answer{
+        margin: -235px 0px 0px 10px;
+        float: left;
+    }
+    .email{
+        margin: -200px 0 0  10px;
+       
+    }
+    .e-answer{
+        margin: -180px 0 0 10px;
+    }
+    #title{
+        margin: 50px 0 0 20px;
+    
+    }
+    .Java_skills label{
+        margin: 30px 280px 0px 10px;
+       
+    }
+    .Java_skills progress{
+        margin: 10px 0px 0px 20px;
+        float: left;
+    }
+    .Java_skills p{
+        margin: 10px 150px 0px 0px;
+        color: darkmagenta;
+
+    }
+    .Html_skills label{
+        margin: 30px 260px 0px 10px;
+    }
+    .Html_skills progress{
+        margin: 10px 0px 0px 20px;
+        float: left;
+    }
+    .Html_skills p{
+        margin: 10px 150px 0px 0px;
+    }
+    .css-skills label{
+        margin:30px 260px 0px 10px ;
+    }
+    .css-skills progress{
+        margin: 10px 0px 0px 20px;
+        float: left;
+    }
+    .css-skills p{
+        margin: 10px 150px 0px 0px;
+    }
+
+    .firebase-skills label{
+        margin:30px 230px 0px 10px;
+
+    }
+    .firebase-skills progress{
+
+        margin: 10px 0px 0px 20px;
+        float: left;
+    }
+    .firebase-skills p{
+        margin: 10px 150px 0px 0px;
+    }
+    .javascript-skills label{
+        margin: 30px 230px 0px 10px;
+    }
+    .javascript-skills progress{
+        margin: 10px 0px 0px 20px;
+        float: left;
+    }
+    .javascript-skills p{
+        margin: 10px 150px 0px 0px;
+    }
+    .portfolio{
+        margin: 1780px 0 0 0;
+        background-color: white;
+    }
+    .portfolio h1{
+        font-size: 22px;
+    }
+    .portfolio p{
+        font-size: 20px;
+    }
+    .controls{
+        display: none;
+    }
+    .contact-us{
+        margin: -520px 0px 0px 0px;
+       
+    }
+    .contact-us p{
+        font-size: 20px;
+    }
+    .contact-us #contact-description{
+        margin: 20px 8px 0px 8px;
+        font-size: 20px;
+        letter-spacing: 1.4px;
+        line-height: 30px;
+        color: grey;
+        font-weight: bold;
+    }
+    .wrapper{
+        margin: 260px 0px 0 188px;
+    }
+}
+
+/* iphone 6/7/8 plus */
+@media only screen and (min-width:400px){
+   
+
+    #nav-menu{
+      
+        display: flex;
+        justify-content: center;
+        margin: 30px 0px 0px -10px;
+        
+    }
+    #nav{
+        height: 145px;
+        margin: 6px 0px 0px 120px ;
+        
+    }
+    #nav a{
+        display: flex;
+        margin: 0px 0px 0px 50px;
+       
+        
+    }
+
+    #Intro{
+        margin: -30px 0px 0px -65px;
+        display: block;
+        font-size: 35px;
+        white-space: nowrap;
+        color: white;
+        
+        
+
+        
+        
+    }
+    .line{
+        margin: 235px 0px 0px -130px;
+        
+        
+    }
+    .carrer-1{
+        margin: 171px 0px 0px 64px;
+        font-size: 14px;
+        font-family: sans-serif;
+    }
+    .second{
+        margin: 235px 0px 0px 38px;
+        
+    }
+    .carrier-2{
+        margin: 171px 0px 0px 42px;
+    }
+
+    #aboutMe{
+        margin: -20px 0px 0px -99px;
+        font-family: sans-serif;
+    }
+    
+    .downArrow{
+        margin: -18px 0px 0px 80px;
+    }
+    .instagram-logo{
+        margin:-40px 0px 0px -50px ;
+    }
+
+    .github-logo{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 93.1%;
+        left: 65%;
+    }
+
+    /* footer */
+    #footer{
+        height: 1998px;
+    }
+    #footer h3{
+        margin: 20px 0px 0px 2px;
+        font-size: 22px;
+       
+    }
+    .title{
+        margin: 20px 0px 0px 20px;
+        font-size: 18px;
+    }
+    .profilePic img{
+        margin: 15px 0px 0px 150px;
+        width: 130px;
+        height: 130px;
+        
+    }
+    .secondIntro{
+        margin: -30px 0px 0px -10px;
+       font-size: 15px;
+       padding: 60px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #heading{
+        margin: 10px 0px 0px 160px ;
+        
+    }
+    #secondHeader{
+        margin:400px 200px 0px 0px;
+        float: right;
+    }
+    #title{
+        margin: 50px 0px 0px 40px;
+    }
+
+ .fullName{
+     margin: -370px 0px 0px -150px;
+     
+     color: black;
+     
+ }
+ .fname-answer{
+     margin: -330px 0px 0px -150px;
+     color: grey;
+ }
+.birthDate{
+    margin: -280px 0px 0px -150px;
+    color: black;
+}
+.bd-answer{
+    margin: -245px 0px 0px -150px;
+    color: grey;
+
+}
+.job{
+    margin: -190px 0px 0px -150px;
+    color: black;
+}
+.jb-answer{
+    margin: -158px 0px 0px -150px;
+    color: grey;
+    
+}
+.email{
+    margin: -118px 0px 0px -150px;
+    color: black;
+}
+.e-answer{
+    margin: -89px 0px 0px -150px;
+    color: grey;
+}
+#title{
+   visibility: hidden;
+}
+.Java_skills label{
+    margin: 40px 0px 0px -150px;
+    float: left;
+}
+.Java_skills progress{
+    margin: 70px 0px 0px -155px;
+    float: left;
+}
+.Java_skills p{
+    margin: 69px 0px 0px 10px;
+    float: left;
+}
+.Html_skills label{
+    margin: 110px 0px 0px -195px;
+    float: left;
+    
+}
+.Html_skills progress{
+    margin: 140px 0px 0px -200px;
+    float: left;
+}
+.Html_skills p{
+    margin: 140px 0px 0px -30px;
+    float: left;
+}
+.css-skills label{
+    margin: 180px 0px 0px -195px;
+    float: left;
+}
+.css-skills progress{
+    margin: 208px 0px 0px -200px;
+    float: left;
+}
+.css-skills p{
+    margin: 208px 0px 0px -30px;
+    float: left;
+}
+.firebase-skills label{
+    margin: 250px 0px 0px -195px;
+    float: left;
+}
+.firebase-skills progress{
+    margin: 280px 0px 0px -200px;
+    float: left;
+}
+.firebase-skills p{
+    margin: 280px 0px 0px -30px;
+    float: left;
+}
+.javascript-skills label{
+    margin: 320px 0px 0px -195px;
+    float: left;
+}
+.javascript-skills progress{
+    margin: 350px 0px 0px -200px;
+    float: left;
+}
+.javascript-skills p{
+    margin:350px 0px 0px -30px;
+    float: left;
+}
+
+
+.portfolio{
+    background-color: white;
+}
+.portfolio h1{
+    margin: 900px 0px 0px 30px;
+    font-size: 22px;
+    
+}
+.portfolio p{
+    margin: 22px 0px 0px 5px;
+    white-space: nowrap;
+    font-size: 20px;
+}
+.portfolio #description{
+    margin: 10px 40px 0px 40px;
+    font-size: 17px;
+    padding: 10px;  
+
+}
+.controls{
+    display: none;
+}
+
+ 
+
+.contact-us{
+    margin: -490px 0px 0px 0px;
+
+}
+
+.contact-us p{
+    font-size: 30px;
+    margin: 0px 0px 0px 20;
+    padding: 2px;
+}
+.contact-us #contact-description{
+    margin: 20px 0px 0px 30px;
+    font-family: sans-serif;
+    text-align: start;
+    font-size: 22px;
+    line-height: 29px;
+    padding: 20px;
+}
+.contact-us #contact-description br{
+    display: none;
+    
+}
+
+.wrapper {
+    margin: 280px 0px 0px 210px;
+    width: 410px;
+    
+}
+
+}
+/* progressbar for submitting message */
+#myProgress{
+    width: 100%;
+    background-color: black;
+    display: none;
+    border-radius: 25px;
+
+}
+#myBar{
+    width: 10%;
+    height: 30px;
+    background-color: rgb(20, 220, 53);
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+/* snackbar message to toast  */
+#snackbar{
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: 205px;
+    background-color: yellowgreen;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    bottom: 70px;
+    
+}
+#snackbar.show{
+    visibility: visible;
+    /* add  animation*/
+    -webkit-animation: fadein 0.5s fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.50s 2.5s;
+}
+/* animation to fade the snackbar in and out */
+@-webkit-keyframes fadein{
+    from{bottom:0; opacity: 0;}
+    to{bottom:30px; opacity: 1;}
+}
+@keyframes fadein{
+    from{bottom: 0;opacity: 0;}
+    to{bottom: 30px;opacity: 1;}
+}
+@-webkit-keyframes fadeout{
+    from{bottom: 30px; opacity: 1;}
+    to{bottom: 0; opacity: 0;}
+}
+@keyframes fadeout{
+    from{bottom: 30px; opacity: 1;}
+    to{bottom: 0; opacity: 0;}
+}
+
+@media (max-width:768px) {
+    #snackbar{
+        visibility: hidden;
+        min-width: 250px;
+        margin:0px 0px 0px  50px;
+        float: left;
+        background-color: yellowgreen;
+        color: white;
+        text-align: center;
+        border-radius: 20px;
+        padding: 11px;
+        position: fixed;
+        z-index: 1;
+        bottom: 70px;
+    
+    }
+
+    
+    
+}
+
+
+
+/* motor G4 and Galaxy S5 */
+@media (max-width:370px){
+   #nav-menu{
+       display: flex;
+       justify-content: center;
+       margin: 20px 0px 0px -30px;
+   }
+   #nav{
+       height: 145px;
+        margin: 10px 0px 0px 100px;
+   }
+   #nav a{
+    display: flex;
+    margin: 0px 0px 0px 50px;
+   
+    
+}
+   #Intro{
+       font-size: 25px;
+       margin:0px 0px 0px -34px;
+   }
+   .line{
+       margin: 265px 0px 0px -140px;
+   }
+   .carrer-1{
+       margin: 208px 0px 0px 45px;
+       font-size: 14px;
+       font-family: sans-serif;
+   }
+   .second{
+       margin: 265px 0px 0px 22px;
+   }
+   .carrier-2{
+       margin: 208px 0px 0px 18px;
+       font-family: sans-serif;
+   }
+   #aboutMe{
+       margin: -40px 0px 0px -110px;
+       font-family: sans-serif;
+   }
+   .downArrow{
+       margin: -40px 0px 0px 75px;
+   }
+   .instagram-logo{
+       margin: -60px 0px 0px -40px;
+   }
+   .github-logo{
+       top: 93.1%;
+       left: 68%;
+   }
+
+   /* footer */
+   #footer{
+       height: 1778px;
+   }
+   #footer h3{
+       margin: 15px 0px 0px 5px;
+       font-size: 18px;
+   }
+   .title{
+      font-size: 15px;
+      letter-spacing: 2px;
+   }
+   .profilePic img{
+       margin: 15px 0px 0px 110px;
+   }
+   .secondIntro{
+       margin: 165px -20px 0px -20px;
+       padding: 60px;
+       text-align: start;
+       font-family: Arial, Helvetica, sans-serif;
+   }
+   #heading{
+       margin: 10px 0px 0px 150px;
+      
+   }
+   #secondHeader{
+       margin: 400px 150px 0px 180px;
+       
+
+   }
+   #title{
+       margin: -390px 0px 0px 10px;
+       
+   
+   }
+   .fullName{
+       margin: -330px 0px 0px 10px;
+      
+   }
+   .fname-answer{
+       margin: -300px 0px 0px 10px;
+   }
+   .birthDate{
+       margin: -260px 0px 0px 10px;
+   }
+   .bd-answer{
+       margin: -235px 0px 0px 10px;
+   }
+   .job{
+       margin: -190px 0px 0px 10px;
+   }
+   .jb-answer{
+       margin: -166px 0px 0px 10px;
+   }
+   .email{
+       margin: -120px 0px 0px 10px;
+   }
+   .e-answer{
+       margin: -99px 0px 0px 10px;
+   }
+   /* skills */
+   .Java_skills label{
+       margin: 20px 290px 0px 10px;
+       
+   }
+   .Java_skills progress{
+       margin: 2px 195px 0px 10px;
+      
+   }
+   .Java_skills p{
+       margin: -19px 150px 0px 10px;
+       color: mediumvioletred;
+       
+   }
+   .Html_skills label{
+       margin: 30px 280px 0px 10px;
+
+   }
+   .Html_skills progress{
+       margin: 2px 195px 0px 10px;
+   }
+   .Html_skills p{
+       margin: -19px 152px 0px 10px;
+   }
+
+   .css-skills label{
+       margin: 40px 280px 0px 10px;
+   }
+   .css-skills progress{
+       margin: 2px 195px 0px 10px;
+   }
+   .css-skills p{
+       margin: -19px 152px 0px 10px;
+   }
+   .firebase-skills label{
+       margin: 40px 250px 0px 10px;
+   }
+   .firebase-skills progress{
+       margin: 2px 195px 0px 10px;
+   }
+   .firebase-skills p{
+       margin: -19px 152px 0px 10px;
+   }
+   .javascript-skills label{
+       margin: 40px 240px 0px 10px;
+   }
+   .javascript-skills progress{
+       margin: 2px 195px 0px 10px;
+   }
+   .javascript-skills P{
+       margin: -19px 152px 0px 10px;
+   }
+   /* portfolio */
+   .portfolio{
+       background-color: white;
+   }
+
+   .portfolio h1{
+       margin:900px 0px 0px 30px ;
+   }
+   .controls{
+       display: none;
+   }
+   /* contact page */
+   .contact-us {
+       margin: -450px 0px 0px 0px;
+   }
+   .contact-us p{
+       font-size: 20px;
+       margin: 5px 0px 0px 20px;
+   }
+   .contact-us #contact-description{
+       font-size: 18px;
+       margin: 2px 0px 0px 30px;
+       letter-spacing: 1.2px;
+       line-height: 28px;
+   }
+   .wrapper{
+       margin: 260px 0px 0px 180px;
+   }
+}
+/* Iphone 5/SE */
+@media (max-width:320px){
+    #nav-menu{
+        margin: 10px 0px 0px -50px;
+    }
+    
+    #nav{
+        margin: 5px 0px 0px 60px;
+        height: 160px;
+    }
+    #nav a{
+        display: block;
+        margin: 10px 0px 0px 70px;
+       
+        
+    }
+    #Intro{
+        margin: 15px 0px 0px -40px;
+        
+    }
+    .line{
+        margin: 228px 0px 0px -130px;
+    }
+    .carrer-1{
+        margin: 176px 0px 0px 35px;
+        font-size: 12px;
+    }
+    .second{
+        margin: 228px 0px 0px 14px;
+    }
+    .carrier-2{
+        margin: 176px 0px 0px -8px;
+    }
+    #aboutMe{
+        font-size: 14px;
+        margin: -10px 0px 0px -89px;
+    }
+    .downArrow{
+        margin: -10px 0px 0px 50px;
+    }
+    .instagram-logo{
+        margin: 30px 0px 0px -50px;
+    }
+    /* footer */
+    .title{
+    margin: 20px 0px 0px 30px;
+    }
+    .profilePic img{
+        margin: 15px 0px 0px 98px;
+    }
+    .secondIntro{
+        margin: 180px 0px 0px 40px;
+        text-align: start;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .Java_skills label{
+       margin: 30px 220px 0px 80px;
+
+    }
+    .Java_skills progress{
+        margin:5px 150px 0px 0px ;
+    }
+    .Java_skills p{
+        margin: -18px 110px 0px 10px;
+    }
+    .Html_skills label{
+        margin: 30px 210px 0px 80px;
+    }
+    .Html_skills progress{
+        margin: 5px 150px 0px 0px;
+    }
+    .Html_skills p{
+        margin: -18px 110px 0px 10px;
+    }
+    .css-skills label{
+        margin: 30px 220px 0px 80px;
+    }
+    .css-skills progress{
+        margin: 5px 150px 0px 0px;
+    }
+    .css-skills p{
+        margin: -18px 110px 0px 10px;
+    }
+    .firebase-skills label{
+        margin: 30px 180px 0px 80px;
+    }
+    .firebase-skills progress{
+        margin: 5px 150px 0px 0px;
+    }
+    .firebase-skills p{
+        margin: -18px 110px 0px 10px;
+    }
+    .javascript-skills label{
+        margin: 30px 170px 0px 80px ;
+    }
+    .javascript-skills progress{
+        margin: 5px 150px 0px 0px;
+    }
+    .javascript-skills p{
+        margin: -18px 110px 0px 10px;
+    }
+
+    /* height for the footer */
+    #footer{
+        height: 1979px;
+    }
+    .portfolio h1{
+        font-size: 20px;
+    }
+    .portfolio p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .portfolio #description{
+        font-size: 15px;
+    }
+
+    .contact-us{
+        margin: -410px 0px 0px 0px;
+    }
+    .contact-us #contact-description{
+        margin: 10px 20px 0px 10px;
+
+    }
+    .wrapper{
+        margin: 260px 50px 0px 160px;
+        width: 90%;
+    }
+
+
+    
+}
+/* desktop slide */
+@media (min-width:500px) {
+
+    #nav-menu{
+        display: flex;
+        justify-content: center;
+        margin: 30px 0px 0px 30px;
+        
+    }
+    #nav{
+        height: 145px;
+        margin: 6px 0px 0px 140px ;
+        
+    }
+    #nav a{
+        
+        margin: 0px 0px 0px 68px;
+    }
+
+    #Intro{
+        margin: 25px 0px 0px -65px;
+        display: block;
+        font-size: 35px;
+        white-space: nowrap;   
+        
+    }
+    .line{
+        margin: 275px 0px 0px -130px;
+        display: flex; 
+        
+    }
+    .carrer-1{
+        margin: 219px 0px 0px 122px;
+        font-size: 14px;
+        font-family: sans-serif;
+    }
+    .second{
+        margin: 275px 0px 0px 40px;
+        
+    }
+    .carrier-2{
+        margin: 219px 0px 0px 105px;
+    }
+
+
+    #aboutMe{
+        margin:40px 0px 0px -99px;
+        font-family: sans-serif;
+    }
+    .downArrow{
+        margin: 40px 0px 0px 69px;
+    }
+    .instagram-logo{
+        margin: 60px 0px 0px -50px;
+    }
+    /* footer */
+    .profilePic img{
+        margin: 15px 0px 0px 204px;
+    }
+    .secondIntro{
+        margin: 10px 0px 0px 40px;
+        text-align: start;
+        font-family: Arial, Helvetica, sans-serif;
+      
+    }
+    #heading{
+        margin: 10px 0px 0px 202px;
+        
+       
+    }
+    #secondHeader{
+        margin: 400px 150px 0px 180px;
+        
+ 
+    }
+    /* contact page */
+   .contact-us {
+    margin: -320px 0px 0px 0px;
+}
+    .contact-us p{
+    font-size: 20px;
+    margin: 5px 0px 0px 20px;
+}
+.contact-us #contact-description{
+    font-size: 18px;
+    margin: 2px 20px 0px 40px;
+    letter-spacing: 1.2px;
+    line-height: 28px;
+}
+.wrapper{
+    margin: 260px 0px 0px 240px;
+    width: 100%;
+
+}
+
+
+   
+}
+/* ipad */
+@media (min-width:700px){
+    
+    #nav-menu{
+        margin: 50px 0px 0px 170px;
+
+    }
+    #nav{
+        height: 200px;
+        margin: 6px 0px 0px 290px ;
+        
+    }
+    #nav a{
+        display: flex;
+        margin: 0px 0px 0px 50px;
+        font-size: 30px;
+
+       
+        
+    }
+    #Intro{
+        margin: -50px 0px 0px -65px;
+        display: block;
+        font-size: 55px;
+        white-space: nowrap;
+        color: white;
+        
+    
+    }
+    .line{
+        margin: 365px 0px 0px -180px;
+        display: flex;
+        
+        
+    }
+    .carrer-1{
+        margin: 280px 0px 0px 214px;
+        font-size: 22px;
+        font-family: sans-serif;
+    }
+    .second{
+        margin: 365px 0px 0px 75px;
+        
+    }
+    .carrier-2{
+        margin: 280px 0px 0px 285px;
+    }
+    #aboutMe{
+        margin: -110px 0px 0px -59px;
+        font-family: sans-serif;
+    }
+    .downArrow{
+        margin: -124px 0px 0px 72px;
+    }
+
+    /* footer */
+
+    #footer{
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        color: cornflowerblue;
+        text-align: center;
+        margin-top: 978px;
+        height: 2099px;
+    }
+    #footer h3{
+        margin: 20px 0px 0px 2px;
+        font-size: 25px;
+       
+    }
+    .title{
+        margin: 20px 0px 0px 20px;
+        font-size: 23px;
+       
+    }
+    .profilePic img{
+        margin: 15px 0px 0px 270px;
+        width: 230px;
+        height: 230px;
+        
+    }
+    .secondIntro{
+        margin: 10px 50px 0px 50px;
+       font-size: 25px;
+       padding: 20px;
+       font-family: Arial, Helvetica, sans-serif;
+       
+    }
+    #heading{
+        margin: 10px 0px 0px 320px;
+        
+        
+        
+    }
+    #secondHeader{
+        margin:600px 350px 0px 0px;
+
+        font-size: 20px;
+       
+       
+    }
+    #title{
+        margin: -580px 0px 0px 290px;
+        
+        visibility: visible;
+        font-size: 20px;
+        
+    }
+    .fullName{
+        margin: -530px 0px 0px 310px;
+        font-size: 22px;
+        
+    }
+    .fname-answer{
+        margin: -490px 0px 0px 310px;
+        font-size: 20px;
+    }
+    .birthDate{
+        margin: -430px 0px 0px 310px;
+        font-size: 22px;
+    }
+    .bd-answer{
+        margin: -395px 0px 0px 310px;
+        font-size: 20px;
+    }
+    .job{
+        margin: -350px 0px 0px 310px;
+        font-size: 22px;
+    }
+    .jb-answer{
+        margin: -315px 0px 0px 310px;
+        font-size: 20px;
+        
+    }
+    .email{
+        margin: -280px 0px 0px 310px;
+        font-size: 22px;
+    }
+    .e-answer{
+       
+        margin: -250px 0px 0px 310px;
+        font-size: 20px;
+        
+    }
+    .Java_skills label{
+        margin: 50px 370px 0px 0px;
+        float: right;
+        font-size: 20px;
+    }
+    .Java_skills progress{
+        margin: 85px -130px 0px 0px;
+        float: right;
+        
+    }
+    .Java_skills p{
+        margin: 85px -200px 0px 0px;
+        float: right;
+    }
+    .Html_skills label{
+        margin: 120px -95px 0px 0px;
+        float: right;
+        font-size: 20px;
+    }
+    .Html_skills progress{
+        margin: 150px -160px 0px 0px;
+        float: right;
+    }
+    .Html_skills p{
+        margin: 150px -200px 0px 0px;
+        float: right;
+    }
+    .css-skills label{
+        margin: 180px -75px 0px 0px;
+        float: right;
+        font-size: 20px;   
+    }
+
+    .css-skills progress{
+        margin: 210px -160px 0px 0px;
+        float: right;
+    }
+    .css-skills p{
+        margin: 210px -200px 0px 0px;
+        float: right;
+    }
+    .firebase-skills label{
+        margin: 250px -115px 0px 0px;
+        float: right;
+        font-size: 20px;
+    }
+    .firebase-skills progress{
+        margin: 280px -160px 0px 0px;
+        float: right;
+    }
+    .firebase-skills p{
+        margin: 280px -200px 0px 0px;
+        float: right;
+    }
+    .javascript-skills label{
+        margin: 320px -115px 0px 0px;
+        float: right;
+    }
+    .javascript-skills progress{
+        margin: 350px -160px 0px 0px;
+        float: right;
+    }
+    .javascript-skills p{
+        margin:350px -200px 0px 0px;
+        float: right;
+    }
+    
+    .portfolio h1{
+        margin: 1880px 0px 0px 30px;
+        font-size: 26px;
+    }
+    .portfolio p{
+        margin: 22px 0px 0px 5px;
+        white-space: nowrap;
+        font-size: 24px;
+    }
+
+    .portfolio #description{
+        margin: 10px 40px 0px 40px;
+        font-size: 22px;
+        padding: 10px;  
+    
+    }
+    .contact-us{
+        margin: -700px 0px 0px 0px;
+    
+    }
+    .contact-us p{
+        font-size: 30px;
+        margin: 0px 0px 0px 20;
+        padding: 2px;
+    }
+    .contact-us #contact-description{
+        margin: 20px 80px 0px 80px;
+        font-family: sans-serif;
+        text-align: start;
+        font-size: 25px;
+        line-height: 29px;
+        padding: 12px;
+        
+    }
+
+    .wrapper{
+        margin: 230px 0px 0px 380px;
+        width: 100%;
+    }
+
+    
+}
+
+/* desktop and laptop */
+@media (min-width:1024px){
+    #nav-menu{
+        display: flex;
+        justify-content: center;
+        margin: 40px 0px 0px -20px;
+    }
+    #nav{
+        height: 200px;
+         margin: 10px 0px 0px 100px;
+         
+    }
+    #nav a{
+        display: flex;
+        font-size: 20px;
+    }
+       
+        
+
+   #Intro{
+    font-size: 50px;
+    margin:-30px 0px 0px 34px;
+
+}
+.line{
+    margin: 265px 0px 0px -140px;
+}
+.carrer-1{
+    margin: 208px 0px 0px 494px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.second{
+    margin: 265px 0px 0px 22px;
+}
+.carrier-2{
+    margin: 208px 0px 0px 478px;
+    font-family: sans-serif;
+}
+#aboutMe{
+    margin: 30px 0px 0px -30px;
+    font-family: sans-serif;
+}
+.downArrow{
+    margin: 30px 0px 0px 32px;
+}
+.instagram-logo{
+    margin: 210px 0px 0px -10px;
+}
+.github-logo{
+    top: 93.1%;
+    left: 53%;
+}
+/* footer */
+#footer h3{
+    margin: 15px 0px 0px 5px;
+    font-size: 30px;
+    
+}
+.title{
+    font-size: 20px;
+    letter-spacing: 2px;
+ }
+
+ .profilePic img{
+    margin: 40px 0px 0px 200px;
+    width: 180px;
+    height: 180px;
+}
+.secondIntro{
+    margin: -203px 300px 0px 380px;
+    padding: 20px;
+    text-align: start;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#heading{
+    margin: 10px 0px 0px 180px;
+    font-size: 20px;
+   
+   
+}
+
+#secondHeader{
+    margin: 30px 300px 0px 40px;
+    
+
+}
+ #title{
+    margin: 60px 0px 0px -110px;
+
+ }
+
+ .fullName{
+    margin: 120px 0px 0px -140px;
+    
+}
+.fname-answer{
+    margin: 160px 0px 0px -140px;
+}
+.birthDate{
+    margin: 210px 0px 0px -140px;
+}
+.bd-answer{
+    margin: 244px 0px 0px -140px;
+}
+.job{
+    margin: 290px 0px 0px -140px;
+}
+.jb-answer{
+    margin: 320px 0px 0px -140px;
+}
+.email{
+    margin: 365px 0px 0px -266px;
+}
+.e-answer{
+
+    margin: 399px 0px 0px -266px;
+}
+
+/* skills */
+.Java_skills label{
+    margin: 80px 320px 0px 90px;
+    float: right;
+    
+}
+.Java_skills progress{
+    margin: 10px 220px 0px 10px;
+    float: right;
+   
+}
+.Java_skills p{
+    margin: 10px -210px 0px 10px;
+    color: mediumvioletred;
+    float: right;
+}
+.Html_skills label{
+    margin: 40px 303px 0px 90px;
+    float: right;
+
+}
+.Html_skills progress{
+    margin: 10px 220px 0px 10px;
+}
+.Html_skills p{
+    margin: 10px -210px 0px 10px;
+}
+.css-skills label{
+    margin: 50px -73px 0px 90px;
+    float: right;
+}
+.css-skills progress{
+    margin: 10px 220px 0px 10px;
+}
+.css-skills p{
+    margin: 10px -210px 0px 10px;
+}
+.firebase-skills label{
+    margin: 64px -120px 0px 10px;
+    float: right;
+}
+.firebase-skills progress{
+    margin: 90px -170px 0px 10px;
+}
+.firebase-skills p{
+    margin: 89px -210px 0px 10px;
+}
+.javascript-skills label{
+    margin: 140px -110px 0px 10px;
+}
+.javascript-skills progress{
+    margin: 170px -170px 0px 10px;
+}
+.javascript-skills P{
+    margin: 170px -212px 0px 10px;
+}
+/* portfolio */
+.portfolio h1{
+    margin:-450px 0px 0px 30px ;
+}
+ /* contact page */
+ .contact-us {
+    margin: -450px 0px 0px 0px;
+}
+.contact-us #contact-description{
+    font-size: 23px;
+    letter-spacing: 1.2px;
+    display: flex;
+    justify-content: center;
+    line-height: 28px;
+    padding: 20px 20px 0px 20px;
+    margin: 0px 200px 0px 400px;
+    
+    
+}
+#contact-description br{
+    display: none;
+}
+.wrapper{
+    margin: 260px 0px 0px 680px;
+    width: 100%;
+}
+.controls{
+    display: flex;
+}
+
+}
+
+
+
+
+
+
