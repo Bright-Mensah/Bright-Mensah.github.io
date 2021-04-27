@@ -24,7 +24,7 @@
 
         function connectDatabase(){
 
-        database.ref('/users/' + phone).set({
+        database.ref('/Sender/' + phone).set({
     
             UserName: username,
             subject:subject,
