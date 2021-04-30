@@ -2149,10 +2149,13 @@ for the indicator to display on the slider */
     .second{
         display: none;
     }
-    #Intro{
-        color: red;
+    .downArrow{
+         margin: 30px 0px 0px 28px;
     }
-
+    .Java_skills progress{
+        margin: 10px 190px 0px 10px;
+        float: right;
+    }
     
     
 }
