@@ -200,7 +200,7 @@
                     errorFileds('blue',`Please enter a valid phone number`,'white');
                     return false;
                 }
-                else if(phone.length !=10 || phone.length >10){
+                else if(phone.length <10){
                     errorFileds('yellow',`Please phone should be equal or more than 10 characters`,'black');
                     return false;
 
