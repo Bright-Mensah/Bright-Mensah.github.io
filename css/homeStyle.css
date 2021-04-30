@@ -2142,6 +2142,17 @@ for the indicator to display on the slider */
 
 }
 
+@media (min-width:1350px){
+    .line{
+        display: none;
+    }
+    .second{
+        display: none;
+    }
+
+    
+    
+}
 
 
 
