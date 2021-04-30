@@ -2142,7 +2142,8 @@ for the indicator to display on the slider */
 
 }
 
-@media (min-width:1320px){
+/* screens with 1320px and wider  */
+@media (min-width:1320px){   
     .line{
         display: none;
     }
@@ -2153,7 +2154,7 @@ for the indicator to display on the slider */
          margin: 30px 0px 0px 28px;
     }
     .Java_skills progress{
-        margin: 10px 190px 0px 10px;
+        margin: 10px 10px 0px 10px;
         float: right;
     }
     #Intro{
