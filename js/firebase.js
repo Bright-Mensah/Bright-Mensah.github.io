@@ -205,7 +205,7 @@
                     return false;
 
                 }
-                else if(phone.length >=10){
+                else if(phone.length =10 || phone.length > 10){
                     //check if email is not empty
 
                     if(email ==='' || email ===undefined){
