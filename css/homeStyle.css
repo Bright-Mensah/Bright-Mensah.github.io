@@ -2156,6 +2156,9 @@ for the indicator to display on the slider */
         margin: 10px 190px 0px 10px;
         float: right;
     }
+    #Intro{
+        color: white;
+    }
     
     
 }
