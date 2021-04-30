@@ -2142,7 +2142,7 @@ for the indicator to display on the slider */
 
 }
 
-@media (min-width: 1320px){
+@media (min-width:1320px){
     .line{
         display: none;
     }
