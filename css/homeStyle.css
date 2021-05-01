@@ -912,8 +912,11 @@ for the indicator to display on the slider */
         display: flex;
         justify-content: center;
         margin: 30px 0px 0px -10px;
-        color: cornflowerblue;
         
+    }
+    #nav-menu span{
+        color: cornflowerblue;
+
     }
     #nav{
         height: 145px;
