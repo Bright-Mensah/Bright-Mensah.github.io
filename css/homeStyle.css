@@ -47,7 +47,7 @@ body{
     left: 50%;
     margin: 290px 0px 0px -140px;
     top: 10%;
-    display: block;
+    display: none;
     
 }
 .carrer-1{
@@ -68,6 +68,7 @@ body{
 .second{
     border: 1px solid cornflowerblue;
     margin: 290px 0px 0px 45px;
+    display:none;
     
 }
 .carrier-2{
