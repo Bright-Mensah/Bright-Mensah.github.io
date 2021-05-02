@@ -903,20 +903,26 @@ for the indicator to display on the slider */
     }
 }
 
-/* iphone 6/7/8 plus */
+/* iphone 6/7/8 plus  and samsung*/
 @media only screen and (min-width:400px){
    
-
+/* 
     #nav-menu{
       
         display: flex;
         justify-content: center;
         margin: 30px 0px 0px -10px;
         
-    }
-    #nav-menu span{
+    } */
+    #nav-menu {
         color: cornflowerblue;
-
+        cursor: pointer;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        max-width: 30px 0px 0px -10px;
+    
+        
     }
     #nav{
         height: 145px;
@@ -948,7 +954,7 @@ for the indicator to display on the slider */
         
     }
     .carrer-1{
-        margin: 171px 0px 0px 64px;
+        margin: 182px 0px 0px 64px;
         font-size: 14px;
         font-family: sans-serif;
     }
@@ -957,7 +963,7 @@ for the indicator to display on the slider */
         
     }
     .carrier-2{
-        margin: 171px 0px 0px 42px;
+        margin: 182px 0px 0px 42px;
     }
 
     #aboutMe{
@@ -1151,7 +1157,7 @@ for the indicator to display on the slider */
 }
 
 .contact-us p{
-    font-size: 30px;
+    font-size: 27px;
     margin: 0px 0px 0px 20;
     padding: 2px;
 }
@@ -1170,7 +1176,7 @@ for the indicator to display on the slider */
 }
 
 .wrapper {
-    margin: 280px 0px 0px 210px;
+    margin: 280px 10px 0px 210px;
     width: 390px;
     
 }
